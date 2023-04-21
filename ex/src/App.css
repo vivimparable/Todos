@@ -1,0 +1,104 @@
+
+*,
+*::before,
+*::after {margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}  
+html {
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+
+p {
+  font-size: 2rem;
+}
+
+.App{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+body{
+  background-color: rgb(49, 49, 49);
+}
+/* lista de tareas */
+
+.tareas-lista-principal{
+
+  width: 60rem;
+  min-height: 50rem;
+  background-color: #d0d0d5;
+  padding: 2.5rem;
+  margin: 1rem;
+  border-radius: 2.6rem;
+
+}
+/*tarea*/
+
+.tarea-contenedor{
+  width: 50rem;
+  min-height: 6.5rem;
+  background-color: #1b1b32;
+  margin: 0.5rem 0rem;
+  padding: 0.8rem 1.5rem 0.8rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 0.7rem;
+  border: 0.1rem solid white;
+  cursor: pointer;
+
+}
+
+.tarea-texto{
+  width: 100%;
+  height: 100%;
+  font-size: 2rem;
+  display: flex;
+  align-items: center;
+  overflow-wrap: anywhere;
+  color: white;
+
+}
+
+.tarea-icono{
+  width: 2.5rem;
+  height: 2.5rem;
+  margin: 0.5rem;
+  color: white;
+}
+
+.completada{
+  background-color: violet;
+  text-decoration: line-through;
+}
+
+.tarea-formulario{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.tarea-input{
+  width: 35rem;
+  font-size: 1.8rem;
+  background-color: white;
+  padding: 1.4rem 3.2rem 1.4rem 1.6rem;
+  border: solid 0.2re green;
+  outline: none;
+  border-radius: 0.4rem 0rem 0rem 0.4rem;
+}
+
+.tarea-boton{
+  padding: 1.6rem;
+  font-size: 1.8rem;
+  border: none;
+  border-radius: 0rem 0.4rem 0.4rem 0rem;
+  cursor: pointer;
+  outline: none;
+  background-color: green;
+  color: white;
+  text-transform: capitalize;
+}
